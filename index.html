@@ -1,8 +1,216 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link rel="stylesheet" type="text/css" href="styles.css" />
+      <title>Christopher Maldonado</title>
    </head>
    <body>
-      <!-- Write your HTML in this file! -->
+     <header>
+      <article id="header-article">
+         <h1 id="mainHeading">&lt; welcome &gt; </h1>
+      <p>Congradulations, you've found my page. Allow me to introduce myself.</p> 
+      <p>My name is <em id="name"><b>Christopher Maldonado</b></em>. I'm currently developing my web development skills (that sounds redundant, but I digress).</p>
+      <p>Now before these 90's graphics and effects convince you to hire me to whip up your new enterprise suite, let's take a look at all the other things I've done in my &quot;professional&quot; journey.</p>
+      <p>You'll need to double-click your first icon to get the ball rolling. Rest assured that's a feature and not a bug; that's my story and I'm sticking to it!  cough* chough*.  </p>
+      </article>
+
+     </header>
+     <main>
+      <div id="buttonDiv">
+         <h2>Please click on the icons to scroll through my career fields.</h2>
+         <button onclick="croissantFunction()">&#x1F950;</button>
+         <button onclick="wirelessFunction()">&#x1F4F1;</button>
+         <button onclick="nypdFunction()">&#x1F693;</button>
+         <button onclick="callcenterFunction()">&#x1F3ED;</button>
+         <button onclick="aviationFunction()">&#x1F6EA;</button>
+         <button onclick="uscgFunction()">&#x2693;</button>
+         
+      </div>
+      <article>
+         <div id="croissant">
+         
+         <img class="photos photos-left" src="/images/croissant.jpg">
+      
+         <h1>&#x1F950;&nbsp;Le&nbsp;Croissant&nbsp;Shop</h1>
+         <p>My first job was at a small french inspired bakery franchise called Le Croissant Shop. In time we'd also add a Haagen-Dazs ice cream shop as well.</p>
+         <p>I'd was promoted to Assistant Manager and was transfered to a busier location</p> 
+         <p>Although the job was fun, it wasn't paying the bills and it was time to move on, so I entered the next chapter of my story...</p>
+            </div>                
+      </article>
+    
+
+      
+      <article>
+         
+         <div id="wireless">
+         <img class="photos photos-right" src="/images/Nextel_logo.svg.png">
+         <h1>Wireless&nbsp;Communications&nbsp;&#x1F4F1;</h1>
+         <p>The jump from Food Service to Wireless was straightforward. Afterall, retail sales is retail sales. However at some point, sales stagnated and I was laid off.</p>
+         <p>Thankfully, I was quickly offered another position working on the back end of the industry with a Master Dealer. In essence my customers weren't the end user, but rahter the wireless dealers who sell to the end customer.</p>
+            <p id="testP" class="funParagraph">My jump to the wireless industry doubled my pay from food service. My jump to master dealer work doubled the pay yet again. Wonder why this paragraph is green? I'm $ure you'll figure it out.</p>
+         </div>       
+      </article>
+   
+
+      <article>
+         <div id ="nypd">
+         <img class="photos photos-left" src="/images/nypd-auxiliary-logo-153BEB68F9-seeklogo.com.png">
+         <h1>&#x1F693;&nbsp;NYPD&nbsp;Auxiliary</h1>
+         <p>Like many people in the Post-9/11 era, I decided that I wanted to do more to fulfil my sense of civic duty. And so I decided to join the ranks of 
+            the NYPD and volunteer as an Auxiliary Police Officer</p>
+         <p>What ensued were some of the most fun, exciting and rewarding years of my life. </p>
+         <p>Alas all good things must come to an end as the saying goes and I eventually decided it was time to leave my hometown of NYC and head west to the beautiful State of Arizona.</p>
+         </div>         
+      </article>
+
+      <article>
+         <div id="callcenter">
+         <img class="photos photos-right" src="/images/CallCenter.jpg">
+         <h1>Call&nbsp;Centers&nbsp;&#x1F3ED;</h1>
+         <p>It turns out, Arizona is chock-full of Call Centers. Apparently companies realized that there's 365 days of sunshine there and no snow storms, hurricanes, 
+            tornadoes or virtually any other natural disasters encountered elsewhere in the country.</p>
+         <p>So I ended up working at one of our top banks and later on with a nationwide cable provider. Fun fact, not my photo but it is of one of the actuall call centers I worked at. 
+            I can see where my desk was, and that's pretty cool. </p>
+         <p>Call center work was not for me so I moved on to the exciting world of Aviation</p>
+         </div>    
+      </article>
+
+      <article>
+         <div id="aviation">
+         <img class="photos photos-left" src="/images/48e71124-fd98-4f4c-967e-546889e0eb4e-american_air_2.webp">
+         <h1>&#x1F6EA;&nbsp;Aviation</h1>
+         <p>My first position was as a ramp agent (Baggage Handler) at Phoenix Sky Harbor Airport. Pay sucked but every now and then I'd see a child peeking through the plane 
+            window and if you wave to them, their smile and excitement would power you through the week.</p>
+            <p>Another Fun Fact. Not my photo, but you see the smaller jet at the bottom of the photo? Yep, I've worked that exact plane at that exact gate.</p>
+         <p>In time, I moved over to the Human Resources department. Less baggage, more air-conditioning. Win-win if you ask me. </p>
+         <p>Alas all good things must come to en end so I eventually moved to Pennsylvania to become a stay at home dad.</p>
+         </div>    
+      </article>
+
+      <article>
+         <div id="uscg">
+         <img class="photos photos-right" src="/images/auxlogo.webp">
+         
+         <h1>US&nbsp;Coast&nbsp;Guard&nbsp;Auxiliary&nbsp;&#x2693;</h1>
+         <p>Staying home with the kids is great but it doesn't butter my biscuit. As such I decided once again to fulfill my desire to serve the greater good and I signed up for 
+            the US Coast Guard Auxiliary</p>
+         <p>As an Auxiliarist I have to opportunity to train and qualify for many positions to augment the US Coast Guard. I'm currently training to be qualified as a Boat Crew Member, 
+            but in the meantime I work down in the Philadelphia Base (Sector Delaware Bay) where I answer phones, sign in visitors and help monitor the security cameras. </p>
+         </div>    
+      </article>
+
+     </main>
+     <footer>
+      <h1>&lt; / goodbye &gt; </h1>
+      <p>Thank you for visiting my page. I appreciate you stopping by.</p>
+     </footer>
+
+     <script>
+      let w = document.getElementById("wireless");
+      let c = document.getElementById("croissant");
+      let n = document.getElementById("nypd");
+      let cc = document.getElementById("callcenter");
+      let a = document.getElementById("aviation");
+      let u = document.getElementById("uscg");
+
+      function croissantFunction() {
+        var x = document.getElementById("croissant");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          
+          w.style.display = "none";
+          n.style.display = "none";
+          cc.style.display = "none";
+          a.style.display = "none";
+          u.style.display = "none";
+
+
+        } else {
+          x.style.display = "none";
+          
+        }
+      }
+
+
+      function wirelessFunction() {
+        var x = document.getElementById("wireless");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+
+          c.style.display = "none";
+          n.style.display = "none";
+          cc.style.display = "none";
+          a.style.display = "none";
+          u.style.display = "none";
+
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function nypdFunction() {
+        var x = document.getElementById("nypd");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+
+          w.style.display = "none";
+          c.style.display = "none";
+          cc.style.display = "none";
+          a.style.display = "none";
+          u.style.display = "none";
+
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function callcenterFunction() {
+        var x = document.getElementById("callcenter");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+
+          w.style.display = "none";
+          c.style.display = "none";
+          n.style.display = "none";
+          a.style.display = "none";
+          u.style.display = "none";
+
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function aviationFunction() {
+        var x = document.getElementById("aviation");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+
+          w.style.display = "none";
+          c.style.display = "none";
+          cc.style.display = "none";
+          n.style.display = "none";
+          u.style.display = "none";
+
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function uscgFunction() {
+        var x = document.getElementById("uscg");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+
+          w.style.display = "none";
+          c.style.display = "none";
+          cc.style.display = "none";
+          a.style.display = "none";
+          n.style.display = "none";
+
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
    </body>
 </html>

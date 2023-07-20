@@ -1,1 +1,96 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-color: rgb(210, 242, 250);
+    max-width: 80%;
+    padding-left: 10%;
+}
+
+main {
+     margin-left: 10%;
+     margin-right: 10%;
+     border: 3px black;
+    border-style: double;
+    border-radius: 10px;
+    background-color: rgb(200, 229, 247);
+}
+
+#header-article {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+
+
+
+div {
+    margin: 5%;
+    padding-bottom: 3%;
+}
+
+div:hover {
+    font-size: 20px;
+}
+#mainHeading {
+    color: red;
+    font-size: 35px; 
+}
+.photos {
+    width: 300px;
+    height: auto;
+}
+
+.photos-left {
+    float: left;
+}
+
+.photos-right{
+    float: right;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+#name {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.funParagraph{ 
+    color: green;
+}
+
+footer, header {
+    text-align: center;
+}
+
+img {
+    margin: 1%;
+    padding: 1%;
+}
+
+#wireless, #nypd, #callcenter, #aviation, #uscg {
+    display: none;
+}
+
+#buttonDiv {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-size: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
